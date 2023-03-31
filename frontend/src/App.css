@@ -14,11 +14,13 @@ html {
   max-height: 800px;
   width: 80%;
   max-width: 500px;
+  border: 1px solid black;
   border-radius: 20px;
   overflow: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
   scroll-snap-type: y mandatory;
+  position: relative;
 }
 
 .app__videos::-webkit-scrollbar {
